@@ -59,6 +59,16 @@
     background-color:darkcyan;
   }
 
+  .container div:nth-of-type(2){
+    border: solid 5px ;
+  }
+
+  .container main:nth-of-type(1){
+    border: solid 10px black;         /* solo in base ad elemento non in base a classe
+     */
+  }
+
+
 
 /* While reviewing the code, note the following:
 - The grid template areas are defined as "header" "left" "main" "right" "footer" but for a small device with a screen width of 440px or less, it is defined as "header header header" "left main right" "footer footer footer" using a media query.
